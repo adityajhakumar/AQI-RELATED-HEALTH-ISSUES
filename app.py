@@ -7,7 +7,8 @@ from sklearn.preprocessing import LabelEncoder
 from io import BytesIO
 
 # Load the dataset
-df = pd.read_excel(r"C:\Users\adity\Downloads\health_data_percentages.xlsx")
+df = pd.read_excel('health_data_percentages.xlsx')
+
 
 # Encode categorical variables
 label_encoder = LabelEncoder()
